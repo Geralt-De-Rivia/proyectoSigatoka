@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="112dp"
-        android:text="Este es el Screen de Prevencion de la sigatoka"
+        android:text="Este es el Screen de Prevencion de la sigatoka  Y realizamos un cambio para hacer una instantanea en git hub"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="20dp" />
 </RelativeLayout>
