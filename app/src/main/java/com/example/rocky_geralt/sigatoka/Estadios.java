@@ -10,6 +10,7 @@ public class Estadios extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_estadios);
+
     }
     public void onBackPressed(){
         Intent menu = new Intent(Estadios.this, MenuPrincipal.class);

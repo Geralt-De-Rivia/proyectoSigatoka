@@ -10,6 +10,7 @@ public class Sigatoka extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sigatoka);
+
     }
     public void onBackPressed(){
         Intent menu = new Intent(Sigatoka.this, MenuPrincipal.class);
