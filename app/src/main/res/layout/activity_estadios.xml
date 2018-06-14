@@ -7,11 +7,27 @@
     tools:context=".Estadios">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:id="@+id/textViewEstado1"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="126dp"
-        android:text="Este es el Screen de los estadios del Sigatoka" />
+        android:layout_marginTop="18dp"
+        android:editable="false"
+        android:text="Estadio 1"
+        android:textStyle="bold"
+        tools:background="@android:color/holo_red_light"
+        tools:fontFamily="serif"
+        tools:textAlignment="center"
+        tools:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="364dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="Es el primer sintoma externo de la enfermedad, las plantas afectadas por Sigatoka negra presentan presentan puntos oscuros" />
+
 </RelativeLayout>
