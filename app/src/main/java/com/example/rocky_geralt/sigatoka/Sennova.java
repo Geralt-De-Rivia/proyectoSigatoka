@@ -10,8 +10,8 @@ public class Sennova extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sennova);
-
     }
+
     public void onBackPressed(){
         Intent menu = new Intent(Sennova.this, MenuPrincipal.class);
         startActivity(menu);

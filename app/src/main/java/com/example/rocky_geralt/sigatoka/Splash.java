@@ -10,7 +10,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class Splash extends AppCompatActivity {
-    private int duracionSplash = 3000; //los milisegundos que dura el splash
+    private int duracionSplash = 2000; //los milisegundos que dura el splash
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

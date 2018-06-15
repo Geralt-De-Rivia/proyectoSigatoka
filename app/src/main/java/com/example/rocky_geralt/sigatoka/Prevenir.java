@@ -10,7 +10,6 @@ public class Prevenir extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prevenir);
-
     }
 
     public void onBackPressed(){
@@ -19,5 +18,4 @@ public class Prevenir extends AppCompatActivity {
 
         Prevenir.this.finish();
     }
-
 }

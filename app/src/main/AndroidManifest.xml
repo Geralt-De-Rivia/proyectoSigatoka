@@ -15,11 +15,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuPrincipal" android:label="@string/title_activity_menu_principal" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Sigatoka" android:parentActivityName=".MenuPrincipal" android:label="@string/layoutSigatoka"></activity>
-        <activity android:name=".Estadios" android:parentActivityName=".MenuPrincipal" android:label="@string/layoutEstadios" ></activity>
-        <activity android:name=".Prevenir" android:parentActivityName=".MenuPrincipal" android:label="@string/layoutPrevenir"></activity>
-        <activity android:name=".Sennova" android:parentActivityName=".MenuPrincipal" android:label="@string/layoutSennova"></activity>
+        <activity android:name=".MenuPrincipal" android:label="@string/title_activity_menu_principal" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Estadios" android:label="@string/layoutEstadios"></activity>
+        <activity android:name=".Sigatoka" android:label="@string/layoutSigatoka"></activity>
+        <activity android:name=".Prevenir" android:label="@string/layoutPrevenir"></activity>
+        <activity android:name=".Sennova" android:label="@string/layoutSennova"></activity>
+        <activity android:name=".Estadio1" />
+        <activity android:name=".Estadio2" />
+        <activity android:name=".Estadio3" />
+        <activity android:name=".Estadio4" />
+        <activity android:name=".Estadio5" />
+        <activity android:name=".Estadio6" />
+
     </application>
 
 </manifest>
