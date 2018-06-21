@@ -1,9 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#215821"
+    tools:background="#215821"
     tools:context=".Prevenir">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPrevencion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#2D402B"
+                android:gravity="center"
+                android:text="Prevencion"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/txtComoPrevenir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nManejo: la forma de frenar la diseminación de la bacteria, consiste en impedir su entrada a las plantas, por lo tanto, en las labores de deshoje, des guasque, destronque y desmeché, se deben evitar heridas al seudotallo. Además, una buena nutrición ayuda a la plantación a soportar el ataque de la enfermedad. \n"
+                android:textSize="16sp"
+                android:textColor="#FFF"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/estadio4_3"/>
+
+            <TextView
+                android:id="@+id/txtRecomendacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En plantaciones afectadas se recomienda la utilización de formol para desinfectar la herramienta, lo mismo que el sabletero. \n"
+                android:textSize="16sp"
+                android:textColor="#FFF"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/estadio3_5"/>
+
+            <TextView
+                android:id="@+id/txtEspacio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txtControl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#2D402B"
+                android:gravity="center"
+                android:text="Control"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/txtQueEs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nEl control de la enfermedad se realiza mediante la erradicación de plantas enfermas, inyectando glifosato al 20% de 5 a 50 centímetros cúbicos de la solución, de acuerdo al tamaño de la planta \n"
+                android:textSize="16sp"
+                android:textColor="#FFF"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

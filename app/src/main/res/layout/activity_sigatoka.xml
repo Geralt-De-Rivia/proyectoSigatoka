@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#215821"
+    tools:background="#215821"
     tools:context=".Sigatoka">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSigatoka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#2D402B"
+                android:gravity="center"
+                android:text="Sigatoka Negra"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/txtQueEs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLa Sigatoka negra, causada por el hongo Mycosphaerella fijiensis, es la enfermedad foliar que representa la principal limitante en la producción de musáceas (plátano y banano) a nivel mundial. La enfermedad afecta el área foliar fotosintética de la planta y, en consecuencia, los racimos y los frutos tienen un menor peso en comparación con plantas sanas. Adicionalmente, infecciones severas de la Sigatoka negra causan la madurez prematura del fruto. \n"
+                android:textSize="16sp"
+                android:textColor="#FFF"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/estadio4_3"/>
+            <TextView
+                android:id="@+id/txtDaños"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daños: Se presenta solo en el seudotallo y en cualquier estado de desarrollo de la planta. Se observan lesiones acuosas, de color amarillento al comienzo y café oscuro al final, de olor fétido característico; normalmente la enfermedad aparece en la parte media del seudotallo y avanza hacia el centro y hacia abajo deteniéndose al llegar al cormo. Como consecuencia de la obstrucción en los tejidos, las hojas se van amarillando, especialmente la central tomando posteriormente una coloración café oscuro hasta secarse totalmente. En el cormo aparece un área café pálido acuosa, rodeado por un halo de color negro.
+La enfermedad se transmite de una planta enferma a una sana principalmente durante el deshoje y desguasque, por medio de herramientas. Después de afectada la plantación se puede diseminar por la lluvia. \n"
+                android:textSize="16sp"
+                android:textColor="#FFF"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/estadio6"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
