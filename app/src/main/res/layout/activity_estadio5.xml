@@ -5,8 +5,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#215821"
-    tools:background="#215821"
+    android:background="#fff"
+    tools:background="#fff"
     tools:context=".Estadio5">
 
     <HorizontalScrollView
@@ -14,9 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_x="0dp"
-        android:layout_y="0dp">
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,32 +24,18 @@
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/estadio3" />
+                android:src="@drawable/estadio5" />
+
+            <TextView
+                android:id="@+id/txtEspacio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t" />
 
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/estadio3_1" />
-
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/estadio3_2" />
-
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/estadio3_3" />
-
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/estadio3_4" />
-
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/estadio3_5" />
+                android:src="@drawable/estadio5_1" />
 
         </LinearLayout>
     </HorizontalScrollView>

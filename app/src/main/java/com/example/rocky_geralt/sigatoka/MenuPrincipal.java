@@ -97,8 +97,10 @@ public class MenuPrincipal extends AppCompatActivity
             Intent sennova = new Intent(MenuPrincipal.this, Sennova.class);
             startActivity(sennova);
             MenuPrincipal.this.finish();
-        } else if (id == R.id.nav_share) {
-
+        } else if (id == R.id.regional) {
+            Intent regional = new Intent(MenuPrincipal.this, Regional.class);
+            startActivity(regional);
+            MenuPrincipal.this.finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

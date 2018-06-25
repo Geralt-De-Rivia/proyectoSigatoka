@@ -5,8 +5,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#215821"
-    tools:background="#215821"
+    android:background="#fff"
+    tools:background="#fff"
     tools:context=".Estadio2">
 
     <HorizontalScrollView
@@ -14,9 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_x="0dp"
-        android:layout_y="0dp">
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,25 +26,55 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/estadio2" />
 
+            <TextView
+                android:id="@+id/txtEspacio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t" />
+
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/estadio2_1" />
+
+            <TextView
+                android:id="@+id/txtEspacio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t" />
 
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/estadio2_2" />
 
+            <TextView
+                android:id="@+id/txtEspacio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t" />
+
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/estadio2_3" />
 
+            <TextView
+                android:id="@+id/txtEspacio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t" />
+
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/estadio2_4" />
+
+            <TextView
+                android:id="@+id/txtEspacio5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t" />
 
             <ImageView
                 android:layout_width="300dp"

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#215821"
-    tools:background="#215821"
+    android:background="#fff"
+    tools:background="#fff"
     tools:context=".Estadios">
 
     <ScrollView
@@ -19,7 +19,7 @@
 
             <TextView
                 android:id="@+id/txtEstadio1"
-                android:layout_width="150dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#2D402B"
                 android:gravity="center"
@@ -36,11 +36,12 @@
                 android:layout_height="wrap_content"
                 android:text="\nEs el primer síntoma externo de la enfermedad, las plantas afectadas por Sigatoka negra presentan puntos oscuros, café rojizo menor de 0,25 mm de longitud, visible a simple vista en el envés de las hojas, generalmente más abundante cerca del margen derecho de la hoja (vista de frente) y hacia el ápice. Esto se asemeja a la primera etapa de la Sigatoka amarilla. \n"
                 android:textSize="16sp"
-                android:textColor="#FFF"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
             <Button
                 android:id="@+id/btnEstadio1"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 1"
                 android:background="#1E351C"
@@ -56,7 +57,7 @@
 
             <TextView
                 android:id="@+id/txtEstadio2"
-                android:layout_width="150dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#2D402B"
                 android:gravity="center"
@@ -73,11 +74,12 @@
                 android:text="\nLas pizcas aumentan de tamaño en sentido longitudinal paralelas a la venación, formando estrías de 2 a 3 mm de longitud, de color café rojizo visibles primero en el envés y luego en el haz. \n"
                 android:textStyle="bold"
                 android:textSize="16sp"
-                android:textColor="#fff"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
             <Button
                 android:id="@+id/btnEstadio2"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 2"
                 android:background="#1E351C"
@@ -93,7 +95,7 @@
 
             <TextView
                 android:id="@+id/txtEstadio3"
-                android:layout_width="150dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#2D402B"
                 android:gravity="center"
@@ -107,15 +109,15 @@
                 android:id="@+id/txtEstadio3.1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\nSe distingue por la presencia de estrías o rayas con un tamaño mínimo de 5 mm, pudiendo alcanzar hasta 2 a 3 cm de largo.
-Las estrías conservan el color rojizo por el envés y toman color negro por el haz. \n"
+                android:text="\nSe distingue por la presencia de estrías o rayas con un tamaño mínimo de 5 mm, pudiendo alcanzar hasta 2 a 3 cm de largo. Las estrías conservan el color rojizo por el envés y toman color negro por el haz. \n"
                 android:textStyle="bold"
                 android:textSize="16sp"
-                android:textColor="#fff"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
             <Button
                 android:id="@+id/btnEstadio3"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 3"
                 android:background="#1E351C"
@@ -131,7 +133,7 @@ Las estrías conservan el color rojizo por el envés y toman color negro por el 
 
             <TextView
                 android:id="@+id/txtEstadio4"
-                android:layout_width="150dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#2D402B"
                 android:gravity="center"
@@ -148,11 +150,12 @@ Las estrías conservan el color rojizo por el envés y toman color negro por el 
                 android:text="\nSe caracteriza por la presencia de manchas elípticas u ovales que toman 25 un color café por el envés y negro por el haz. \n"
                 android:textStyle="bold"
                 android:textSize="16sp"
-                android:textColor="#fff"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
             <Button
                 android:id="@+id/btnEstadio4"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 4"
                 android:background="#1E351C"
@@ -167,7 +170,7 @@ Las estrías conservan el color rojizo por el envés y toman color negro por el 
 
             <TextView
                 android:id="@+id/txtEstadio5"
-                android:layout_width="150dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#2D402B"
                 android:gravity="center"
@@ -184,11 +187,12 @@ Las estrías conservan el color rojizo por el envés y toman color negro por el 
                 android:text="\nEn este estado la mancha elíptica es totalmente negra en ambas caras de la hoja, aparece rodeada por un halo amarillo y presenta una “depresión” en el centro del tejido. \n"
                 android:textStyle="bold"
                 android:textSize="16sp"
-                android:textColor="#fff"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
             <Button
                 android:id="@+id/btnEstadio5"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 5"
                 android:background="#1E351C"
@@ -204,7 +208,7 @@ Las estrías conservan el color rojizo por el envés y toman color negro por el 
 
             <TextView
                 android:id="@+id/txtEstadio6"
-                android:layout_width="150dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#2D402B"
                 android:gravity="center"
@@ -221,11 +225,12 @@ Las estrías conservan el color rojizo por el envés y toman color negro por el 
                 android:text="\nLa mancha está totalmente desarrollada; el área central hundida es de color gris y un borde de color café oscuro o negro forma un anillo bien definido alrededor de la mancha. Además, aparece un halo de color amarillo brillante alrededor de la lesión. Aun cuando la hoja esté muerta, la mancha persiste y el anillo oscuro que rodea la mancha también se mantiene bastante definido. \n"
                 android:textStyle="bold"
                 android:textSize="16sp"
-                android:textColor="#fff"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
             <Button
                 android:id="@+id/btnEstadio6"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 6"
                 android:background="#1E351C"

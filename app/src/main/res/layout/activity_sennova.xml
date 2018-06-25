@@ -5,8 +5,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#215821"
-    tools:background="#215821"
+    android:background="#fff"
+    tools:background="#fff"
     tools:context=".Sennova">
 
     <LinearLayout

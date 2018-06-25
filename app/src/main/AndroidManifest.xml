@@ -12,15 +12,29 @@
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuPrincipal" android:label="@string/title_activity_menu_principal" android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity android:name=".Estadios" android:label="@string/layoutEstadios"></activity>
-        <activity android:name=".Sigatoka" android:label="@string/layoutSigatoka"></activity>
-        <activity android:name=".Prevenir" android:label="@string/layoutPrevenir"></activity>
-        <activity android:name=".Sennova" android:label="@string/layoutSennova"></activity>
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Estadios"
+            android:label="@string/layoutEstadios" />
+        <activity
+            android:name=".Sigatoka"
+            android:label="@string/layoutSigatoka" />
+        <activity
+            android:name=".Prevenir"
+            android:label="@string/layoutPrevenir" />
+        <activity
+            android:name=".Sennova"
+            android:label="@string/layoutSennova" />
+        <activity
+            android:name=".Regional"
+            android:label="@string/layoutRegional"/>
         <activity android:name=".Estadio1" />
         <activity android:name=".Estadio2" />
         <activity android:name=".Estadio3" />

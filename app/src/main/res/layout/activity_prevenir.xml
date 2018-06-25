@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#215821"
-    tools:background="#215821"
+    android:background="#fff"
+    tools:background="#fff"
     tools:context=".Prevenir">
 
     <ScrollView
@@ -19,7 +19,7 @@
 
             <TextView
                 android:id="@+id/txtPrevencion"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#2D402B"
                 android:gravity="center"
@@ -36,7 +36,8 @@
                 android:layout_height="wrap_content"
                 android:text="\nManejo: la forma de frenar la diseminación de la bacteria, consiste en impedir su entrada a las plantas, por lo tanto, en las labores de deshoje, des guasque, destronque y desmeché, se deben evitar heridas al seudotallo. Además, una buena nutrición ayuda a la plantación a soportar el ataque de la enfermedad. \n"
                 android:textSize="16sp"
-                android:textColor="#FFF"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
             <ImageView
                 android:layout_width="300dp"
@@ -50,7 +51,8 @@
                 android:layout_height="wrap_content"
                 android:text="En plantaciones afectadas se recomienda la utilización de formol para desinfectar la herramienta, lo mismo que el sabletero. \n"
                 android:textSize="16sp"
-                android:textColor="#FFF"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
             <ImageView
                 android:layout_width="300dp"
@@ -66,7 +68,7 @@
 
             <TextView
                 android:id="@+id/txtControl"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#2D402B"
                 android:gravity="center"
@@ -83,7 +85,8 @@
                 android:layout_height="wrap_content"
                 android:text="\nEl control de la enfermedad se realiza mediante la erradicación de plantas enfermas, inyectando glifosato al 20% de 5 a 50 centímetros cúbicos de la solución, de acuerdo al tamaño de la planta \n"
                 android:textSize="16sp"
-                android:textColor="#FFF"/>
+                android:textColor="#000"
+                android:textAlignment="center"/>
 
         </LinearLayout>
     </ScrollView>
