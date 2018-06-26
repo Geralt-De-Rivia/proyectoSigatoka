@@ -20,9 +20,9 @@
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="cropped" value="true" />
-                                      <entry key="iconShape" value="NONE" />
-                                      <entry key="imageAsset" value="C:\Users\Rocky-Geralt\Desktop\proyectoSigatoka\app\src\main\res\drawable\edwin.jpg" />
-                                      <entry key="outputName" value="edwin" />
+                                      <entry key="iconShape" value="CIRCLE" />
+                                      <entry key="imageAsset" value="C:\Users\Wilmaknana\Desktop\proyectoSigatoka\app\src\main\res\drawable\siembra_cercana.jpeg" />
+                                      <entry key="outputName" value="ic_myicon" />
                                     </map>
                                   </option>
                                 </PersistentState>

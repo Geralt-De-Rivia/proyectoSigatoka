@@ -21,7 +21,7 @@
                 android:id="@+id/txtSigatoka"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#2D402B"
+                android:background="#4CB11A"
                 android:gravity="center"
                 android:text="Sigatoka Negra"
                 android:textAlignment="center"
@@ -43,7 +43,7 @@
                 android:layout_width="300dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
-                android:src="@drawable/estadio4_3"/>
+                android:src="@drawable/estadio6"/>
             <TextView
                 android:id="@+id/txtDaños"
                 android:layout_width="match_parent"

@@ -12,5 +12,11 @@
     <string name="layoutEstadios">Estadios del Sigatoka</string>
     <string name="layoutSennova">Que es Sennova</string>
     <string name="layoutRegional">Regional Casanare</string>
+    <string name="layoutEstadio1">Sigatoka Negra Estadio 1</string>
+    <string name="layoutEstadio2">Sigatoka Negra Estadio 2</string>
+    <string name="layoutEstadio3">Sigatoka Negra Estadio 3</string>
+    <string name="layoutEstadio4">Sigatoka Negra Estadio 4</string>
+    <string name="layoutEstadio5">Sigatoka Negra Estadio 5</string>
+    <string name="layoutEstadio6">Sigatoka Negra Estadio 6</string>
 
 </resources>
