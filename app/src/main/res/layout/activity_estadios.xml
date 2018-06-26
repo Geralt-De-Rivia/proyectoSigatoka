@@ -41,12 +41,11 @@
 
             <Button
                 android:id="@+id/btnEstadio1"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 1"
-                android:background="#1E351C"
+                android:background="@drawable/boton_redondo"
                 android:layout_gravity="center"
-                android:drawableLeft="@mipmap/ic_estadio1"
                 android:textColor="#fff"/>
 
             <TextView
@@ -79,12 +78,11 @@
 
             <Button
                 android:id="@+id/btnEstadio2"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 2"
-                android:background="#1E351C"
+                android:background="@drawable/boton_redondo"
                 android:layout_gravity="center"
-                android:drawableLeft="@mipmap/ic_estadio2"
                 android:textColor="#fff" />
 
             <TextView
@@ -117,12 +115,11 @@
 
             <Button
                 android:id="@+id/btnEstadio3"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 3"
-                android:background="#1E351C"
+                android:background="@drawable/boton_redondo"
                 android:layout_gravity="center"
-                android:drawableLeft="@mipmap/ic_estadio3"
                 android:textColor="#fff" />
 
             <TextView
@@ -155,12 +152,11 @@
 
             <Button
                 android:id="@+id/btnEstadio4"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 4"
-                android:background="#1E351C"
+                android:background="@drawable/boton_redondo"
                 android:layout_gravity="center"
-                android:drawableLeft="@mipmap/ic_estadio4"
                 android:textColor="#fff" />
             <TextView
                 android:id="@+id/txtEspacio4"
@@ -192,12 +188,11 @@
 
             <Button
                 android:id="@+id/btnEstadio5"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 5"
-                android:background="#1E351C"
+                android:background="@drawable/boton_redondo"
                 android:layout_gravity="center"
-                android:drawableLeft="@mipmap/ic_estadio5"
                 android:textColor="#fff" />
 
             <TextView
@@ -230,12 +225,11 @@
 
             <Button
                 android:id="@+id/btnEstadio6"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="Ver Imagenes del estadio 6"
-                android:background="#1E351C"
+                android:background="@drawable/boton_redondo"
                 android:layout_gravity="center"
-                android:drawableLeft="@mipmap/ic_estadio6"
                 android:textColor="#fff" />
 
             <TextView

@@ -22,7 +22,7 @@
             android:title="Acerca de Sennova" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Investigadores">
         <menu>
             <item
                 android:id="@+id/regional"

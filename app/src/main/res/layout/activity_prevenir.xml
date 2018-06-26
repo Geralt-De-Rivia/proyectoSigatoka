@@ -88,6 +88,82 @@
                 android:textColor="#000"
                 android:textAlignment="center"/>
 
+            <TextView
+                android:id="@+id/txtControlCultural"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Control Cultural:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtControlCulturalSig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprende todas aquellas prácticas que eviten o disminuyan la alta humedad relativa y la alta temperatura en la plantación. Dentro de éstas se tiene: construcción de drenajes adecuados, deshijes y deshojes continuos y control de malezas.\n"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/txtControlQuimico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Control Quimico:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtControlQuimicoSig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Su objetivo es detener la producción de cuerpos fructíferos aun cuando haya ocurrido la infección. Sin embargo, cada día aumentan los riesgos de generación de resistencia por el uso continuado de algunos fungicidas, la agresividad de M. fijiensis y por el medio ambiente favorable a la enfermedad. \n"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/txtTerreno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Selección del terreno:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtTerrenoSig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es uno de los factores de mayor importancia al establecer el cultivo, ya que guarda gran relación con la vida útil y calidad de la plantación, con la posibilidad de mecanización de ciertas labores, facilidad de cosecha y manejo de problemas fitosanitarios. Debe estar cerca a fuentes de agua, con vías de acceso y tener buenos drenajes o posibilidad de realizarlos. \n"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/txtAdecuacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Adecuación del terreno:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtAdecuacionSig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La preparación del terreno para la siembra de plátano depende de factores como la procedencia del lote a sembrar; sólo en el caso de potreros se justifica el empleo de maquinaria agrícola. Propiedades físicas del suelo como textura, estructura y la topografía del terreno \n"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textAlignment="center"/>
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
