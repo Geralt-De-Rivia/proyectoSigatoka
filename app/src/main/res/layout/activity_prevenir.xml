@@ -37,7 +37,7 @@
                 android:text="\nManejo: la forma de frenar la diseminación de la bacteria, consiste en impedir su entrada a las plantas, por lo tanto, en las labores de deshoje, des guasque, destronque y desmeché, se deben evitar heridas al seudotallo. Además, una buena nutrición ayuda a la plantación a soportar el ataque de la enfermedad. \n"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <ImageView
                 android:layout_width="300dp"
@@ -52,7 +52,7 @@
                 android:text="En plantaciones afectadas se recomienda la utilización de formol para desinfectar la herramienta, lo mismo que el sabletero. \n"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <ImageView
                 android:layout_width="300dp"
@@ -86,7 +86,7 @@
                 android:text="\nEl control de la enfermedad se realiza mediante la erradicación de plantas enfermas, inyectando glifosato al 20% de 5 a 50 centímetros cúbicos de la solución, de acuerdo al tamaño de la planta \n"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <TextView
                 android:id="@+id/txtControlCultural"
@@ -105,7 +105,7 @@
                 android:text="Comprende todas aquellas prácticas que eviten o disminuyan la alta humedad relativa y la alta temperatura en la plantación. Dentro de éstas se tiene: construcción de drenajes adecuados, deshijes y deshojes continuos y control de malezas.\n"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <TextView
                 android:id="@+id/txtControlQuimico"
@@ -124,7 +124,7 @@
                 android:text="Su objetivo es detener la producción de cuerpos fructíferos aun cuando haya ocurrido la infección. Sin embargo, cada día aumentan los riesgos de generación de resistencia por el uso continuado de algunos fungicidas, la agresividad de M. fijiensis y por el medio ambiente favorable a la enfermedad. \n"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <TextView
                 android:id="@+id/txtTerreno"
@@ -143,7 +143,7 @@
                 android:text="Es uno de los factores de mayor importancia al establecer el cultivo, ya que guarda gran relación con la vida útil y calidad de la plantación, con la posibilidad de mecanización de ciertas labores, facilidad de cosecha y manejo de problemas fitosanitarios. Debe estar cerca a fuentes de agua, con vías de acceso y tener buenos drenajes o posibilidad de realizarlos. \n"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <TextView
                 android:id="@+id/txtAdecuacion"
@@ -162,7 +162,103 @@
                 android:text="La preparación del terreno para la siembra de plátano depende de factores como la procedencia del lote a sembrar; sólo en el caso de potreros se justifica el empleo de maquinaria agrícola. Propiedades físicas del suelo como textura, estructura y la topografía del terreno \n"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:id="@+id/txtDrenajes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Drenajes:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtDrenajesSig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los drenajes se deben realizar en regiones húmedas, donde la precipitación anual es alta y los suelos son planos o ligeramente ondulados. Su objetivo es la evacuación del exceso de agua que se encuentre bien sea en la superficie del suelo o a mayor profundidad, propiciando así buenas condiciones de aireación en la zona radicular.
+Algunos tipos de drenajes son los siguientes: \n"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:id="@+id/txtDrenaje1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Canales Primarios:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtDrenaje1Sig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tienen como función recoger y evacuar rápidamente las aguas provenientes de los canales secundarios y terciarios. Para su construcción o adecuación se puede aprovechar la mayor depresión del terreno, ríos, caños y quebradas."
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:id="@+id/txtDrenaje2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Canales Secundarios:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtDrenaje2Sig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Constituyen la base del sistema de drenajes. Su profundidad y frecuencia están determinados por la topografía y el nivel freático de los suelos"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:textAlignment="textStart"/>
+
+            <TextView
+            android:id="@+id/txtDrenaje3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Canales Terciarios:"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtDrenaje3Sig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Depositan sus aguas en los canales secundarios. Sirven para mantener el nivel freático a una profundidad adecuada para las raíces, evacuan rápidamente las aguas superficiales evitando encharcamientos."
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:id="@+id/txtDrenaje4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Canales Cuaternarios o sangrias:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtDrenaje4Sig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se construyen en áreas pequeñas donde se producen encharcamientos para evacuar el agua superficie."
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:textAlignment="textStart"/>
 
         </LinearLayout>
     </ScrollView>

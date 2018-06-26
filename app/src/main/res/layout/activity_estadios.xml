@@ -36,8 +36,9 @@
                 android:layout_height="wrap_content"
                 android:text="\nEs el primer síntoma externo de la enfermedad, las plantas afectadas por Sigatoka negra presentan puntos oscuros, café rojizo menor de 0,25 mm de longitud, visible a simple vista en el envés de las hojas, generalmente más abundante cerca del margen derecho de la hoja (vista de frente) y hacia el ápice. Esto se asemeja a la primera etapa de la Sigatoka amarilla. \n"
                 android:textSize="16sp"
+                android:textStyle="bold"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <Button
                 android:id="@+id/btnEstadio1"
@@ -74,7 +75,7 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <Button
                 android:id="@+id/btnEstadio2"
@@ -111,7 +112,7 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <Button
                 android:id="@+id/btnEstadio3"
@@ -148,7 +149,7 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <Button
                 android:id="@+id/btnEstadio4"
@@ -184,7 +185,7 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <Button
                 android:id="@+id/btnEstadio5"
@@ -221,7 +222,7 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textAlignment="textStart"/>
 
             <Button
                 android:id="@+id/btnEstadio6"
