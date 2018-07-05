@@ -19,9 +19,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="cropped" value="true" />
-                                      <entry key="iconShape" value="CIRCLE" />
-                                      <entry key="imageAsset" value="C:\Users\Wilmaknana\Desktop\proyectoSigatoka\app\src\main\res\drawable\siembra_cercana.jpeg" />
+                                      <entry key="iconShape" value="NONE" />
+                                      <entry key="imageAsset" value="C:\Users\Geralt\Desktop\proyectoSigatoka\app\src\main\res\drawable\llaneritomussa.jpeg" />
                                       <entry key="outputName" value="ic_myicon" />
                                     </map>
                                   </option>

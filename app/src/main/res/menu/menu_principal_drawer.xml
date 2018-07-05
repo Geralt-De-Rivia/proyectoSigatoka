@@ -18,7 +18,7 @@
             android:title="Como prevenir y/o combatirla" />
         <item
             android:id="@+id/sennova"
-            android:icon="@drawable/acerca"
+            android:icon="@drawable/ayuda"
             android:title="Acerca de Sennova" />
     </group>
 
@@ -26,7 +26,7 @@
         <menu>
             <item
                 android:id="@+id/regional"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/redes"
                 android:title="Regional Casanare" />
         </menu>
     </item>
