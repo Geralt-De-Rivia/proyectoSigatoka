@@ -22,12 +22,56 @@
 
     <include layout="@layout/content_menu_principal" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btn_sigatoka"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="130dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/sigatokaboton" />
+
+        <Button
+            android:id="@+id/btn_estadios"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="182dp"
+            android:background="@drawable/cicloestadios" />
+
+        <Button
+            android:id="@+id/btn_prevenir"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/btn_sigatoka"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/pildora" />
+
+        <Button
+            android:id="@+id/btn_sennova"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="65dp"
+            android:background="@drawable/sennovaboton" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="92dp"
+            android:layout_height="112dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="99dp"
+            app:srcCompat="@drawable/senafon" />
+    </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>
