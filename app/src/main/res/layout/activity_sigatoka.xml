@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="#fff"
     tools:background="#fff"
-    tools:context=".Sigatoka">
+    tools:context=".Sigatoka"
+    android:padding="10dp">
 
     <ScrollView
         android:layout_width="match_parent"

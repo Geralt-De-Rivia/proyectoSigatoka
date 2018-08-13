@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:background="#fff"
     tools:background="#fff"
-    tools:context=".Sennova">
+    tools:context=".Sennova"
+    android:padding="10dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
