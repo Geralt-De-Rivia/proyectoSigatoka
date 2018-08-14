@@ -7,14 +7,14 @@ import android.os.Bundle;
 public class Estadio3 extends AppCompatActivity {
 
     private ViewPager viewPager;
-    private SliderAdapter miAdaptador;
+    private SliderAdapterEstadio3 miAdaptador;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_estadio3);
         viewPager = findViewById(R.id.viewPager);
-        miAdaptador = new SliderAdapter(this);
+        miAdaptador = new SliderAdapterEstadio3(this);
         viewPager.setAdapter(miAdaptador);
 
 

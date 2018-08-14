@@ -2,7 +2,6 @@ package com.example.rocky_geralt.sigatoka;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,39 +10,39 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class SliderAdapter extends PagerAdapter{
+public class SliderAdapterEstadio2 extends PagerAdapter{
     Context context;
     LayoutInflater inflater;
 
     //Lista de imagenes
     public int[] lista_imagenes = {
-            R.drawable.estadio3,
-            R.drawable.estadio3_1,
-            R.drawable.estadio3_2,
-            R.drawable.estadio3_3,
-            R.drawable.estadio3_4,
-            R.drawable.estadio3_5
+            R.drawable.estadio2,
+            R.drawable.estadio2_1,
+            R.drawable.estadio2_2,
+            R.drawable.estadio2_3,
+            R.drawable.estadio2_4,
+            R.drawable.estadio2_5
     };
 
     //Lista de titulos
     public String[] lista_titulos ={
-            "Estadio 3",
-            "Estadio 3.1",
-            "Estadio 3.2",
-            "Estadio 3.3",
-            "Estadio 3.4",
-            "Estadio 3.5"
+            "Estadio 2",
+            "Estadio 2.1",
+            "Estadio 2.2",
+            "Estadio 2.3",
+            "Estadio 2.4",
+            "Estadio 2.5"
     };
 
     //Lista de descripcion
 
     public String[] lista_descripcion = {
-            "Descipcion 1",
-            "Descipcion 2",
-            "Descipcion 3",
-            "Descipcion 4",
-            "Descipcion 5",
-            "Descipcion 6"
+            "Descripcion 1",
+            "Descripcion 2",
+            "Descripcion 3",
+            "Descripcion 4",
+            "Descripcion 5",
+            "Descripcion 6"
     };
 
     //Opcional Lista de color de fondo
@@ -56,7 +55,7 @@ public class SliderAdapter extends PagerAdapter{
             Color.rgb(110,55,55),
     };
 
-    public SliderAdapter(Context context){
+    public SliderAdapterEstadio2(Context context){
         this.context = context;
     }
 
