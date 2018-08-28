@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 
+import uk.co.senab.photoview.PhotoViewAttacher;
+
 public class Estadio1 extends AppCompatActivity {
 
     private ViewPager viewPager;

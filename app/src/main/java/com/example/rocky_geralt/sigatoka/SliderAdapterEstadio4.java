@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import uk.co.senab.photoview.PhotoViewAttacher;
+
 public class SliderAdapterEstadio4 extends PagerAdapter{
     Context context;
     LayoutInflater inflater;
@@ -67,6 +69,7 @@ public class SliderAdapterEstadio4 extends PagerAdapter{
         View view = inflater.inflate(R.layout.slider, container, false);
         LinearLayout layoutSlide = view.findViewById(R.id.slideLinearLayout);
         ImageView imagenSlide = view.findViewById(R.id.slideImagen);
+        PhotoViewAttacher photoViewAttacher = new PhotoViewAttacher(imagenSlide);
         TextView txtTitulo = view.findViewById(R.id.txtTitulo);
         TextView txtDescripcion = view.findViewById(R.id.txtDescripcion);
         layoutSlide.setBackgroundColor(lista_color_fondo[position]);
