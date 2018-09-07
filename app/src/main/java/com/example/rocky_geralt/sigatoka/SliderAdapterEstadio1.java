@@ -12,6 +12,11 @@ import android.widget.TextView;
 
 import uk.co.senab.photoview.PhotoViewAttacher;
 
+/*
+En esta clase estamos creando el adaptador que vamos a usar en la clase de Estadio1
+La cual se le esta asignado las imagenes que van a ir en esa clase y vista los titulos que
+contendran las imagenes y una breve descripcion del mismo
+ */
 public class SliderAdapterEstadio1 extends PagerAdapter{
     Context context;
     LayoutInflater inflater;
@@ -67,6 +72,9 @@ public class SliderAdapterEstadio1 extends PagerAdapter{
         return (view ==(LinearLayout)object);
     }
 
+    //Estamos inflando la vista de las imagenes titulos y descripcion con sus respectivos
+    // colores de fondo, pero tambien estamos pasando por medio de la clase PhotoViewAttacher para
+    // que se pueda realizar un zoom a cada imagen
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
@@ -84,6 +92,8 @@ public class SliderAdapterEstadio1 extends PagerAdapter{
         return view;
     }
 
+    //Creamos un metodo para destruir el item que ya no se esta viendo para que no nos consuma recursos y no tengamos un desnordamiento
+    //de memoria, de esta manera cada vez que dejemos de usar esa vista no se almacene en memoria
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
         container.removeView((LinearLayout) object);

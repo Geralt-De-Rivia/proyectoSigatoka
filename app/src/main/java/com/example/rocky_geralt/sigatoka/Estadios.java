@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/*
+En esta clase tenemos la informacion de todos los estadios el cual cada uno tiene un boton para acceder a sus respectivas imagenes
+ */
 public class Estadios extends AppCompatActivity {
 
     private Button btnEstadio1;
@@ -20,6 +23,8 @@ public class Estadios extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_estadios);
 
+        //Creamos un objeto con el nombre de cada boton y llamamos los botones correspondientes al layout de los estadios con el metodo
+        //findViewById
         btnEstadio1 = findViewById(R.id.btnEstadio1);
         btnEstadio2 = findViewById(R.id.btnEstadio2);
         btnEstadio3 = findViewById(R.id.btnEstadio3);

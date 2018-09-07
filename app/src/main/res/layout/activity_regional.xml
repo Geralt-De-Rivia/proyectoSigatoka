@@ -16,6 +16,44 @@
             android:orientation="vertical"
             android:padding="10dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siguenos en nuestras redes sociales:"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/facebook"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/twitter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/instagram"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="300dp"

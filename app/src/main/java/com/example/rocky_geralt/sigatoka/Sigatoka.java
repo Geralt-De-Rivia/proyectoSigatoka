@@ -4,6 +4,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/*
+En esta clase encontramos toda la informacion que hemos introducido en el layout de activity_sigatoka
+donde se nos mostrara todos los datos de que es la sigatoka
+ */
 public class Sigatoka extends AppCompatActivity {
 
     @Override

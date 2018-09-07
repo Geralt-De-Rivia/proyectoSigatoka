@@ -15,6 +15,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+/*
+    Esta clase es el menu principal donde estaran los botones y diseño que hemos creado en el layout menu_principal
+    Cada uno de los botones de nuestro layout han sido programados para ser enviados a sus respectivas clases y con su diseño creado en
+    los layout's, tambien tenemos programado el menu lateral izquierdo donde estaran las mismas opciones que los botones en pantalla
+    las cuales nos enviaran a sus repesctivas clases
+ */
 public class MenuPrincipal extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -69,6 +75,8 @@ public class MenuPrincipal extends AppCompatActivity
             }
         });
 
+        //Programamos para que cuando el usuario oprima el icono del menu
+        // abra el menu lateral si esta cerrado y que lo cierre si esta abierto
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -98,14 +106,14 @@ public class MenuPrincipal extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+        //Almacenamos en la variable id la opcion o item escojido en el menu y retornamos la opcion que tomo
+        //Para luego ser evaluada y abrir la clase correspondiente
         int id = item.getItemId();
 
         return super.onOptionsItemSelected(item);
     }
 
+    //Validacion del menu lateral donde se enviaran a sus respectivas clases dependiendo la opcion que halla seleccionado
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {

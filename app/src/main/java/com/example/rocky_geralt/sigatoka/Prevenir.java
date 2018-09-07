@@ -4,6 +4,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/*
+En esta clase mostraremos toda la informacion que hemos añadido en el layout de activity_prevenir el cual estara como prevenir
+y que manejo se le debe dar a los terrenos y la enfermedad
+ */
 public class Prevenir extends AppCompatActivity {
 
     @Override
