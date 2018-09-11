@@ -26,7 +26,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <Button
             android:id="@+id/btn_sigatoka"
             android:layout_width="80dp"
@@ -72,6 +71,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="99dp"
             app:srcCompat="@drawable/senafon" />
+
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

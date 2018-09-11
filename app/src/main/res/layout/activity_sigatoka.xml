@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
-    tools:background="#fff"
-    tools:context=".Sigatoka"
+    android:background="@drawable/fondo2"
     android:padding="10dp">
 
     <ScrollView
@@ -35,9 +33,11 @@
                 android:id="@+id/txtQueEs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\nLa Sigatoka negra, causada por el hongo Mycosphaerella fijiensis, es la enfermedad foliar que representa la principal limitante en la producción de musáceas (plátano y banano) a nivel mundial. La enfermedad afecta el área foliar fotosintética de la planta y, en consecuencia, los racimos y los frutos tienen un menor peso en comparación con plantas sanas. Adicionalmente, infecciones severas de la Sigatoka negra causan la madurez prematura del fruto. \n"
+                android:text="@string/sigatoka1"
                 android:textSize="16sp"
-                android:textColor="#000" />
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
 
             <ImageView
                 android:layout_width="300dp"
@@ -48,9 +48,11 @@
                 android:id="@+id/txtDaños"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Daños: Se presenta solo en el seudotallo y en cualquier estado de desarrollo de la planta. Se observan lesiones acuosas, de color amarillento al comienzo y café oscuro al final, de olor fétido característico; normalmente la enfermedad aparece en la parte media del seudotallo y avanza hacia el centro y hacia abajo deteniéndose al llegar al cormo. Como consecuencia de la obstrucción en los tejidos, las hojas se van amarillando, especialmente la central tomando posteriormente una coloración café oscuro hasta secarse totalmente. En el cormo aparece un área café pálido acuosa, rodeado por un halo de color negro. La enfermedad se transmite de una planta enferma a una sana principalmente durante el deshoje y desguasque, por medio de herramientas. Después de afectada la plantación se puede diseminar por la lluvia. \n"
+                android:text="@string/sigatoka2"
                 android:textSize="16sp"
-                android:textColor="#000" />
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
 
             <ImageView
                 android:layout_width="300dp"
